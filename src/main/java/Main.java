@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
-        PredictionService service = new PredictionService ();
-        double bodyMassIndex = service.calculate(77,(1.72 * 1.72));
+        BodyMassIndexService service = new BodyMassIndexService();
+        double bodyMassIndex = service.calculate(77,172);
         System.out.println(bodyMassIndex) ;
     }
 }
